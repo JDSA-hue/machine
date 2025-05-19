@@ -41,7 +41,7 @@ st.markdown(
 
 
 # Cargar el modelo
-filename = 'modelo-clas-tree-knn-nn.pkl'
+filename = 'modelo-clas-tree-knn-nn (1).pkl'
 modelTree, modelKnn, modelNN, labelencoder, variables, min_max_scaler = pickle.load(open(filename, 'rb'))
 
 # Función para clasificar el riesgo
